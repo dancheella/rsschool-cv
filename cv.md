@@ -16,3 +16,12 @@
 ### Briefly About Myself:
 
 There should be information about me and my skills, but I’m still developing. Now I am taking the course Frontend developer at Itlogia and Rollin Scopes School. How I will master the skills - information will change.
+
+***
+
+### Skills and Proficiency:
+
+* HTML5,Basics CSS3
+* Basics Git, Basics GitHub
+* VS Code, WebStorm IDEA
+* Adobe Photoshop, Figma
