@@ -25,3 +25,13 @@ There should be information about me and my skills, but I’m still developing. 
 * Basics Git, Basics GitHub
 * VS Code, WebStorm IDEA
 * Adobe Photoshop, Figma
+
+### Courses:
+
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
+* Online-school Айтилогия "Frontend Developer"  (in progress).
+
+## Languages:
+
+* English - Beginner A1 
+* Russian - Native
