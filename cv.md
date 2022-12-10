@@ -35,7 +35,7 @@ There should be information about me and my skills, but I’m still developing. 
 
 ***
 
-## Languages:
+### Languages:
 
 * English - Beginner A1 
 * Russian - Native
