@@ -51,3 +51,9 @@ Soft-Skills:
 * PhotoshopPhotoshop
 * Figma
 
+### Courses:
+
+* RS Schools Course «JavaScript/Front-end. Stage 0».
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress).
+* Online-school Itlogia "Frontend Developer" (in progress).
+
