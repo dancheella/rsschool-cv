@@ -193,12 +193,16 @@
         <div class="cv-item cv-code" id="code">
             <h2 class="right-title">Code example</h2>
             <pre class="pre"><code>
-        inputCheckbox.oninput = (event) =&gt {
-            if (event.target.checked) {
-              console.log("Согласен");
-         } else {
-               console.log("Не согласен");
-         }
+        buttonSubmit.onclick = function () {
+            if (inputUserName.value.trim() === '') {
+                alert("Заполните поле Your username");
+                return;
+            }
+            if (inputPassword.value.trim() === '') {
+                alert("Введите пароль");
+            } else {
+                alert("Добро пожаловать, " + inputUserName.value + "!");
+            }
         }
                 </code></pre>
         </div>
