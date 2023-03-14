@@ -57,3 +57,11 @@ Soft-Skills:
 * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress).
 * Online-school Itlogia "Frontend Developer" (in progress).
 
+***
+
+### Languages:
+
+* English - Beginner A1+
+* Russian - Native
+
+
