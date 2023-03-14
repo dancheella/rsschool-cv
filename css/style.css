@@ -187,6 +187,8 @@ body {
 
 .right-title-text {
     text-indent: 1.9rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin-bottom: 0;
     text-align: justify;
 
