@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background: rgba(32, 93, 78, 0.42);
+}
+
+.header {
+    background: #b49266;
+    padding: 1.25rem;
+    width: 75rem;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0, 0, 0);
+}
+
+.menu-items {
+    display: flex;
+}
+
+.menu-item {
+    margin: 0 1.25rem;
+}
+
+.menu-link {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #f1b100;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu-link:hover {
+    color: rgb(18, 14, 106);
+    border-bottom: 2px solid rgb(206, 93, 0);
+}
+
+.cv {
+    width: 75rem;
+    display: flex;
+    margin: auto;
+}
+
+.cv-left {
+    width: 22rem;
+    background: rgb(180, 146, 102);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.cv-photo {
+    height: 22rem;
+}
+
+.cv-photo img {
+    height: 100%;
+}
+
+.cv-photo img:hover {
+    box-shadow: 0 -0.25rem 1rem rgb(106, 2, 101);
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.cv-content {
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+.cv-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    margin: 1rem 0;
+}
+
+.title {
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.cv-item {
+    padding: 1.5rem 0;
+    border-bottom: 0.2rem solid #19395e;
+}
+
+.cv-item:last-child,
+.cv-item:last-child {
+    border-bottom: 0;
+}
+
+.cv-left ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cv-left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.cv-left ul li .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.cv-left ul li .data {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.skill-name {
+    width: 20%;
+}
+
+.skill-progress {
+    width: 70%;
+    margin: 0 0.4rem;
+    height: 0.4rem;
+    background: #ff0000;
+    position: relative;
+}
+
+.skill-progress span {
+    position: absolute;
+    height: 100%;
+    background: #3cff00;
+}
+
+#html-skill {
+    width: 95%;
+}
+
+#css-skill {
+    width: 95%;
+}
+
+#js-skill {
+    width: 80%;
+}
+
+#less-skill {
+    width: 95%;
+}
+
+#github-skill {
+    width: 85%;
+}
+
+.cv-language span {
+    color: #fff;
+}
+
+.cv-right {
+    width: 53rem;
+    background: #b49266;
+    padding: 25px;
+}
+
+.right-title {
+    font-size: 1.9rem;
+    line-height: 3.125rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.right-title-text {
+    text-indent: 1.9rem;
+    margin-bottom: 0;
+    text-align: justify;
+
+}
+
+.pre {
+    width: 50rem;
+    background: #5f9d97;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.cv-education ul,
+.cv-work ul {
+    padding-left: 2.5rem;
+    overflow: hidden;
+}
+
+.cv-right ul li {
+    position: relative;
+}
+
+.cv .cv-right ul li .data {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.semi-bold {
+    font-weight: 500;
+}
+
+.cv-right ul li .info {
+    margin-bottom: 1.25rem;
+}
+
+.cv-right ul li:last-child .info {
+    margin-bottom: 0;
+}
+
+.cv-education ul li::before,
+.cv-work ul li::before {
+    content: "";
+    position: absolute;
+    top: 0.2rem;
+    left: -1.7rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.125rem solid #000000;
+    background-color: #ff0000;
+}
+
+.cv-education ul li::after,
+.cv-work ul li::after {
+    content: "";
+    position: absolute;
+    top: 1.125rem;
+    left: -1.2rem;
+    width: 0.2rem;
+    height: 7.2rem;
+    background: #000000;
+}
+
+.footer {
+    background: #b49266;
+    padding: 1.25rem;
+    width: 75rem;
+    margin: 0 auto;
+    border-top: 2px solid rgba(0, 0, 0);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-link {
+    padding: 0 0.75rem;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+
+.rss {
+    width: 11.25rem;
+    height: 2.8rem;
+    background-image: url("../assets/svg/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
