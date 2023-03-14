@@ -31,3 +31,23 @@ Soft-Skills:
 - Creativity: the ability to come up with innovative solutions for problem design.
 - Social: flexibility in accepting criticism.
 
+### Skills and Proficiency:
+
+* Front-End Development
+* JavaScript
+* CSS
+* HTML5
+* Git
+* Bootstrap
+* Node.js
+* Gulp.js
+* Grunt (Software)
+* LESS (Stylesheet Language)
+* SASS
+* JSON
+* AJAX
+* jQuery
+* Web Development
+* PhotoshopPhotoshop
+* Figma
+
