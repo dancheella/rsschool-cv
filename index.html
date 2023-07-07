@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
+</head>
+
+<body>
+<header class="header">
+  <div class="header__container">
+    <!--    <div class="menu">-->
+    <!--      <div class="header__burger">-->
+    <!--        <span class="header__burger-span"></span>-->
+    <!--        <span class="header__burger-span"></span>-->
+    <!--        <span class="header__burger-span"></span>-->
+    <!--        <span class="header__burger-span"></span>-->
+    <!--      </div>-->
+    <nav class="menu__body">
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
+        <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+        <li class="menu__item"><a class="menu__link" href="#courses">Courses</a></li>
+        <li class="menu__item"><a class="menu__link" href="#english">English</a></li>
+        <li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
+        <li class="menu__item"><a class="menu__link" href="#summary">Summary</a></li>
+        <li class="menu__item"><a class="menu__link" href="#code">Code</a></li>
+        <li class="menu__item"><a class="menu__link" href="#education">Education</a></li>
+        <li class="menu__item"><a class="menu__link" href="#work">Work Experience</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--  </div>-->
+</header>
+
+<main class="cv">
+  <section class="cv__left">
+    <div class="cv__photo">
+      <img src="assets/img/image.png" alt="My photo">
+    </div>
+    <div class="cv__content" id="content">
+      <div class="cv__main-title">
+        <h1 class="main-title">Denis Dankin</h1>
+        <h3 class="main-description">Junior Frontend Developer</h3>
+      </div>
+      <div class="cv__item cv__contacts" id="contacts">
+        <h3 class="item-title">Contacts</h3>
+        <ul>
+          <li>
+            <a class="data"
+               href="https://www.google.com/maps/place/%D0%91%D0%93%D0%A3%D0%98%D0%A0,+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+%E2%84%96+1/@53.9165853,27.5941544,17.14z/data=!4m13!1m7!3m6!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!2z0JzQuNC90YHQug!3b1!8m2!3d53.9006011!4d27.558972!3m4!1s0x46dbcfa7d408bda3:0xbf9eab7e6e9a7d89!8m2!3d53.917647!4d27.5951531">
+              <img class="icon" src="assets/svg/address.svg" alt="location">
+              <span>Location: Minsk, Belarus</span>
+            </a>
+          </li>
+          <li>
+            <a class="data" href="mailto:ulman33312@gmail.com" title="email">
+              <img class="icon" src="assets/svg/email.svg" alt="email">
+              <span>Email: ulman33312@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a class="data" href="https://github.com/dancheella">
+              <img class="icon" src="assets/svg/github.svg" alt="github">
+              <span>Github: @danchella</span>
+            </a>
+          </li>
+          <li>
+            <a class="data" href="https://discord.gg/zUr7wWYPXE">
+              <img class="icon" src="assets/svg/discord.svg" alt="github">
+              <span>Discord: danchellla#1057</span>
+            </a>
+          </li>
+          <li>
+            <a class="data" href="https://www.linkedin.com/in/danchellito/">
+              <img class="icon" src="assets/svg/linkedin.svg" alt="github">
+              <span>Linkedin: Denis Dankin</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="cv__item" id="skills">
+        <h3 class="item-title">Skills</h3>
+        <ul>
+          <li>
+            <div class="skill-name">
+              HTML
+            </div>
+            <div class="skill-progress">
+              <span id="html-skill"></span>
+            </div>
+            <div class="skill-per">95%</div>
+          </li>
+          <li>
+            <div class="skill-name">
+              CSS
+            </div>
+            <div class="skill-progress">
+              <span id="css-skill"></span>
+            </div>
+            <div class="skill-per">95%</div>
+          </li>
+          <li>
+            <div class="skill-name">
+              JS
+            </div>
+            <div class="skill-progress">
+              <span id="js-skill"></span>
+            </div>
+            <div class="skill-per">80%</div>
+          </li>
+          <li>
+            <div class="skill-name">
+              LESS
+            </div>
+            <div class="skill-progress">
+              <span id="less-skill"></span>
+            </div>
+            <div class="skill-per">95%</div>
+          </li>
+          <li>
+            <div class="skill-name">
+              Github
+            </div>
+            <div class="skill-progress">
+              <span id="github-skill"></span>
+            </div>
+            <div class="skill-per">85%</div>
+          </li>
+        </ul>
+      </div>
+      <div class="cv__item cv__courses" id="courses">
+        <h3 class="item-title">Courses</h3>
+        <ul>
+          <li>
+            <a class="data" href="https://rs.school/js-stage0/">
+              <img class="icon" src="assets/svg/rss.svg" alt="rss">
+              <span>RSS: JavaScript/Front-end. Stage 0</span>
+            </a>
+          </li>
+          <li>
+            <a class="data" href="https://itlogia.ru/front">
+              <img class="icon" src="assets/img/itlogia.png" alt="itlogia">
+              <span>itlogia: Frontend-разработчик</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="cv__item cv-language" id="english">
+        <h3 class="item-title">English</h3>
+        <span class="main-description">A2 — Elementary</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-right">
+    <div class="cv__item" id="summary">
+      <h2 class="right-title">Summary</h2>
+      <p class="right-title-text">
+        💼I am responsible, proactive, resilient, communicative, and honest. My strengths include good managerial and
+        leadership skills, customer focus, system thinking, and a positive attitude.
+      </p>
+      <p class="right-title-text">
+        📚I enjoy studying and learning new things.
+      </p>
+      <p class="right-title-text">
+        🏋️‍I also enjoy physical activity and listening to music, leading an active and healthy lifestyle.
+      </p>
+      <p class="right-title-text">
+        🤝I am enthusiastic about communication, interacting with others, and building effective team relationships.
+      </p>
+      <p class="right-title-text">
+        🌟Another quality I possess is a focus on customer needs.
+      </p>
+      <p class="right-title-text">
+        ✨ I take pride in my work and find fulfillment in seeing the results of my efforts.
+      </p>
+      <p class="right-title-text">
+        😊That's how I can describe myself and my qualities.
+      </p>
+    </div>
+    <div class="cv__item" id="code">
+      <h2 class="right-title">Code example</h2>
+      <pre class="pre"><code>
+        buttonSubmit.onclick = function () {
+            if (inputUserName.value.trim() === '') {
+                alert("Заполните поле Your username");
+                return;
+            }
+            if (inputPassword.value.trim() === '') {
+                alert("Введите пароль");
+            } else {
+                alert("Добро пожаловать, " + inputUserName.value + "!");
+            }
+        }
+                </code></pre>
+    </div>
+    <div class="cv__item cv-education" id="education">
+      <h2 class="right-title">Education</h2>
+      <ul>
+        <li>
+          <div class="years">2019 - 2021</div>
+          <div class="info">
+            <p class="semi-bold">National Research Nuclear University MEPhI</p>
+            <p>Master's degree, Modern Technologies of Light Water Nuclear Reactors</p>
+          </div>
+        </li>
+        <li>
+          <div class="years">2015 - 2019</div>
+          <div class="info">
+            <p class="semi-bold">Belarusian State University of Informatics and Radioelectronics</p>
+            <p>Higher education, Electronic and information-control systems of physical installation</p>
+          </div>
+        </li>
+        <li>
+          <div class="years">2011 - 2015</div>
+          <div class="info">
+            <p class="semi-bold">BSUIR "Minsk Radioengineering College"</p>
+            <p>Secondary special education, Microelectronics (Integrated Circuit Technology)</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="cv__item cv-work" id="work">
+      <h2 class="right-title">Work Experience</h2>
+      <ul>
+        <li>
+          <div class="years">09.2021 - 09.2023</div>
+          <div class="info">
+            <p class="semi-bold">Belarusian State University of Informatics and Radioelectronics</p>
+            <p>Electronic Engineer</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="cv__item cv__projects" id="projects">
+      <h2 class="right-title">Projects</h2>
+      <ul>
+        <li>
+          <a class="project" href="https://dancheella.github.io/cars-app/">&#10004; Itlogia - Intensive "Frontend Start"</a>
+        </li>
+        <li>
+          <a class="project" href="https://dancheella.github.io/cssBayan/cssBayan/index.html">&#10004; CSS Bayan</a>
+        </li>
+        <li>
+          <a class="project" href="https://dancheella.github.io/macaroons/">&#10004; Macaroons</a>
+        </li>
+        <li>
+          <a class="project"
+             href="https://rolling-scopes-school.github.io/dancheella-JSFEPRESCHOOL2022Q4/plants/">&#10004; Plans</a>
+        </li>
+        <li>
+          <a class="project" href="https://dancheella.github.io/hookah/">&#10004; Mint Hookah Lounge</a>
+        </li>
+        <li>
+          <a class="project" href="https://github.com/dancheella/Quiz">&#10004; Quiz</a>
+        </li>
+        <li>
+          <a class="project" href="https://dancheella.github.io/snake/">&#10004; Snake</a>
+        </li>
+        <li>
+          <a class="project" href="https://dancheella.github.io/task_9/">&#10004; Our tea collections</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-github">
+      <a href="https://github.com/dancheella" class="footer-link">
+        <img class="github-img" src="assets/img/github.png" alt="GitHub">
+      </a>
+    </div>
+    <div class="footer-data"></div>
+    <a href="https://rs.school/js/" class="rss">RSS</a>
+  </div>
+</footer>
+
+<script src="js/js.js"></script>
+
+</body>
+</html>

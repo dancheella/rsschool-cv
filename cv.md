@@ -15,21 +15,21 @@
 
 ### Briefly About Myself:
 
-Now I am taking the course Frontend developer at Itlogia. How I will master the skills - information will change.
+👨‍💼 I am responsible, proactive, resilient, communicative, and honest. My strengths include good managerial and leadership skills, customer focus, system thinking, and a positive attitude.
 
-Hard-Skills:
-- Layout of pages of any complexity on HTML, CSS according to Photoshop, Figma design mockups.
-- Development of projects using JavaScript.
-- Ability to interact with GIT.
-- Experience creating fully responsive website.
+📚 I enjoy studying and learning new things.
 
-Soft-Skills:
-- Communication skills: the ability to effectively communicate with team members, stakeholders, and clients.
-- Problem-solving skills: the ability to analyze and resolve technical problems (depending on one's competence).
-- Adaptability: the ability to learn and adapt to new technologies and development processes.
-- Teamwork: the ability to collaborate with others to achieve a common goal.
-- Creativity: the ability to come up with innovative solutions for problem design.
-- Social: flexibility in accepting criticism.
+🏋️‍♂️ I also enjoy physical activity and listening to music, leading an active and healthy lifestyle.
+
+🤝 I am enthusiastic about communication, interacting with others, and building effective team relationships.
+
+🌟 Another quality I possess is a focus on customer needs.
+
+💪 The combination of my physical health and my passion for music helps me maintain balance and a positive mindset.
+
+✨ I take pride in my work and find fulfillment in seeing the results of my efforts.
+
+That's how I can describe myself and my qualities. 😊
 
 ### Skills and Proficiency:
 
@@ -38,6 +38,7 @@ Soft-Skills:
 * CSS
 * HTML5
 * Git
+* Webpack
 * Bootstrap
 * Node.js
 * Gulp.js
@@ -50,18 +51,21 @@ Soft-Skills:
 * Web Development
 * PhotoshopPhotoshop
 * Figma
+* Scientific research activity
+* Social skills
+* Responsive design
+* PowerPoint
+* Adobe Acrobat
 
 ### Courses:
 
 * RS Schools Course «JavaScript/Front-end. Stage 0».
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress).
 * Online-school Itlogia "Frontend Developer" (in progress).
 
 ***
 
 ### Languages:
 
-* English - Beginner A1+
+* English - Beginner A2
 * Russian - Native
-
-
+* Belarusian - Native
